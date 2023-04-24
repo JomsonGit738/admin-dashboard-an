@@ -1,0 +1,39 @@
+.profile {
+    text-align: center;
+}
+
+img {
+
+    max-width: 60%;
+    padding: 10px;
+    object-fit: contain;
+}
+
+.profile h3 {
+
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+h2 {
+    font-size: medium;
+    padding-left: 10px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.pages {
+    display: flex;
+    flex-direction: column;
+}
+a {
+    text-decoration: none;
+    color: black;
+    height: 40px;
+    padding: 10px 0 0 10px;
+}
+.pages a:hover {
+    background-color: bisque;
+}
+mat-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}

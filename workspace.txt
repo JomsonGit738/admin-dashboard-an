@@ -1,0 +1,43 @@
+1. ng new project-name = create new project 
+2. ng s = to run project
+3. Import / Install Thrid party Liabraries 
+    - Angular Material = ng add @angular/material
+    - choose pre-duild theme
+    - enable topology
+    - enable animation 
+        - to use any component from material 
+            - copy the api for particular component
+            - paste it in appModule.ts
+            - import theme manualy, if there is no color or theme for it (style.css)
+                (actually it happens when matrial is added)
+4. delete all content in app.component.html
+    - and write your own
+5. Check installed third party libraries      .
+6. generate components 
+    - header 
+    - footer
+    - sidebar
+    - dahboard 
+        - card
+        - area-chart
+        - table
+        - pie-chart
+    - employee
+    - gallery
+    - contacts
+    - leads
+7. Design components
+8. setting path in router module for componenets and update
+    -dashboard
+    -employee
+    -gallery
+    -contacts
+    -leads    
+    [path{component}] all 
+9. add Highchart-angular dependency
+      https://github.com/highcharts/highcharts-angular/blob/master/README.md
+      follow all the instruction in this github page to use it...
+    - by using command : npm install highcharts-angular --save
+    - Import highchartsChartModule in AppModule
+    - Install highcharts using command: npm install highcharts --save 
+    - https://www.highcharts.com/demo       
